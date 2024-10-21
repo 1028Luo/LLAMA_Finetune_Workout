@@ -1,0 +1,18 @@
+1. Find how to reduce RAM cost when running "meta-llama/Llama-3.1-8B-instruct",
+it is now bottel neck, GPU cannot run full, extremely low, a few minutes to get reply
+    
+    1.1  "meta-llama/Llama-3.1-8B-instruct" seemingly needs 30.11 GB, but my GPU has 16G. 
+        If running in auto, torch will offload to cpu. If running only with CUDA, torch will say "out ot memory"
+    
+2. Fine tune
+
+3. quantization, probably related to 1.
+
+4. learn difference in tokenizers
+
+5. Checkout the weight distributions, visualize LLM, find difference among the mainstream LLMs
+
+6. find ways to accelerate inference, such as pruning
+
+7. "meta-llama/Llama-3.1-8B-instruct" sometimes repeat the same sentences in one output.
+    Solution: use correct prompt like in the code right now.

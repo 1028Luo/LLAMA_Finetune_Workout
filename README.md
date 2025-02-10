@@ -1,4 +1,4 @@
-This repo contains projects that I did to help me study.
+This repo contains projects that I did to help me study LLM.
 1. Chatbot with RAG and GCP
 2. Creating a synthetic dataset and use it to fine-tune LLAMA-3.2-1b
 

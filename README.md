@@ -1,6 +1,7 @@
 A good attempt on fine tuning LLAMA-3-1b using QLoRA and a synthetic dataset. 
 
 Model available on Hugging Face: https://huggingface.co/Jiexing1028/llama-3-1b-workout
+
 Dataset: https://huggingface.co/datasets/Jiexing1028/workout-plan
 
 # inference with the fine tuned model
